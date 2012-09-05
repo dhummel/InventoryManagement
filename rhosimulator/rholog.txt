@@ -1,0 +1,522 @@
+I 09/04/2012 14:58:36:892 00000510                  Net| Method: GET;Url: http://127.0.0.1:63075/system/uicreated
+I 09/04/2012 14:58:36:908 00001270           HttpServer| Process URI: '/system/uicreated'
+I 09/04/2012 14:58:36:908 00001270                  APP| on_ui_created.navigate to start url: '/app'
+I 09/04/2012 14:58:36:908 00000510         AppCallbacks| process command: APP-ACTIVATED
+I 09/04/2012 14:58:36:908 000003b0           MainWindow| navigate: 'http://127.0.0.1:63075/app'
+I 09/04/2012 14:58:36:908 00000510                  Net| Method: GET;Url: http://127.0.0.1:63075/system/activateapp
+I 09/04/2012 14:58:36:908 000003b0           MainWindow| WebView: loading...
+I 09/04/2012 14:58:36:908 00001270           HttpServer| Process URI: '/system/activateapp'
+I 09/04/2012 14:58:36:908 00000510         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 14:58:36:908 00001270           HttpServer| Process URI: '/app'
+I 09/04/2012 14:58:36:908 00001270           HttpServer| Process URI: '/app/index.erb'
+I 09/04/2012 14:58:36:908 00001270                  APP| RHO serve_index: /app/index.erb
+I 09/04/2012 14:58:36:908 00001270 RHO Rho::RhoController| inst_render_index
+I 09/04/2012 14:58:36:908 00001270              RhoRuby| require_compiled: erb
+I 09/04/2012 14:58:36:924 00001270                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/index.erb
+I 09/04/2012 14:58:36:924 00001270 RHO Rho::RhoController| index layout
+I 09/04/2012 14:58:36:924 00001270                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/layout.erb
+I 09/04/2012 14:58:36:924 000003b0           MainWindow| addToolbarButton: Label: '';Action: 'back'
+I 09/04/2012 14:58:36:924 00001270           HttpServer| GC Start.
+I 09/04/2012 14:58:36:924 000003b0           MainWindow| addToolbarButton: Label: '';Action: 'separator'
+I 09/04/2012 14:58:36:924 000003b0           MainWindow| addToolbarButton: Label: '';Action: 'home'
+I 09/04/2012 14:58:36:924 000003b0           MainWindow| addToolbarButton: Label: '';Action: 'refresh'
+I 09/04/2012 14:58:36:924 000003b0           MainWindow| addToolbarButton: Label: '';Action: 'options'
+I 09/04/2012 14:58:36:924 00001270           HttpServer| GC End.
+I 09/04/2012 14:58:36:924 000003b0           MainWindow| WebView: URL changed
+I 09/04/2012 14:58:36:939 00001270           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.min.js'
+I 09/04/2012 14:58:36:939 00001270           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 09/04/2012 14:58:36:939 00001270           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.css'
+I 09/04/2012 14:58:36:955 00001270           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 09/04/2012 14:58:36:955 00001270           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 09/04/2012 14:58:36:955 00001270           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 09/04/2012 14:58:36:970 00001270           HttpServer| Process URI: '/public/css/android.css'
+I 09/04/2012 14:58:37:048 00001270           HttpServer| Process URI: '/public/jqmobile/images/icons-18-white.png'
+I 09/04/2012 14:58:37:048 000003b0           MainWindow| WebView: loaded 
+I 09/04/2012 14:58:37:815 00001270           HttpServer| Process URI: '/app/Inventory/scanPage'
+I 09/04/2012 14:58:37:815 00001270                  APP| RHO serve: /app/Inventory/scanPage
+I 09/04/2012 14:58:37:815 00001270              RhoRuby| require_compiled: Inventory/inventory_controller
+I 09/04/2012 14:58:37:815 00001270              RhoRuby| require_compiled: helpers/browser_helper
+I 09/04/2012 14:58:37:830 00001270                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/scanPage.erb
+I 09/04/2012 14:58:37:830 00001270           HttpServer| GC Start.
+I 09/04/2012 14:58:37:830 00001270           HttpServer| GC End.
+I 09/04/2012 14:58:37:830 000003b0           MainWindow| WebView: URL changed
+I 09/04/2012 14:58:37:846 00001270           HttpServer| Process URI: '/public/images/barcode.jpg'
+E 09/04/2012 14:58:37:846 00001270           HttpServer| The file /public/images/barcode.jpg was not found
+I 09/04/2012 14:58:40:240 00001270           HttpServer| Process URI: '/app/Inventory/index'
+I 09/04/2012 14:58:40:240 00001270                  APP| RHO serve: /app/Inventory/index
+I 09/04/2012 14:58:40:240 00001270                  APP| const_missing: Inventory
+I 09/04/2012 14:58:40:240 00001270                  APP| load_model: Inventory
+I 09/04/2012 14:58:40:240 00001270              RhoRuby| require_compiled: Inventory/inventory
+I 09/04/2012 14:58:40:240 00001270                  APP| model name: Inventory
+I 09/04/2012 14:58:40:240 00001270                  APP| model class found
+I 09/04/2012 14:58:40:240 00001270                  APP| Inventory : {"property"=>{}}
+I 09/04/2012 14:58:40:240 00001270                  APP| init_db_sources
+I 09/04/2012 14:58:40:240 00001270                  APP| start_id: 40005
+I 09/04/2012 14:58:40:240 00001270                  APP| Migrate schema sources: {}
+I 09/04/2012 14:58:40:256 00001270                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/index.erb
+I 09/04/2012 14:58:40:256 00001270           HttpServer| GC Start.
+I 09/04/2012 14:58:40:256 00001270           HttpServer| GC End.
+I 09/04/2012 14:58:40:287 000003b0           MainWindow| WebView: URL changed
+I 09/04/2012 14:58:41:819 00001270           HttpServer| Process URI: '/app/Inventory/{115997869484421.11}/edit'
+I 09/04/2012 14:58:41:819 00001270                  APP| RHO serve: /app/Inventory/{115997869484421.11}/edit
+I 09/04/2012 14:58:41:819 00001270                  APP| Params: {"id"=>"{115997869484421.11}"}
+I 09/04/2012 14:58:41:819 00001270                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/edit.erb
+I 09/04/2012 14:58:41:819 00001270           HttpServer| GC Start.
+I 09/04/2012 14:58:41:819 00001270           HttpServer| GC End.
+I 09/04/2012 14:58:41:850 000003b0           MainWindow| WebView: URL changed
+I 09/04/2012 14:58:44:239 00001270           HttpServer| Process URI: '/app/Inventory/{115997869484421.11}/show'
+I 09/04/2012 14:58:44:239 00001270                  APP| RHO serve: /app/Inventory/{115997869484421.11}/show
+I 09/04/2012 14:58:44:239 00001270                  APP| Params: {"id"=>"{115997869484421.11}"}
+I 09/04/2012 14:58:44:239 00001270                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/show.erb
+I 09/04/2012 14:58:44:254 00001270           HttpServer| GC Start.
+I 09/04/2012 14:58:44:254 00001270           HttpServer| GC End.
+I 09/04/2012 14:58:44:270 000003b0           MainWindow| WebView: URL changed
+I 09/04/2012 14:58:45:100 00001270           HttpServer| Process URI: '/app/Inventory'
+I 09/04/2012 14:58:45:100 00001270                  APP| RHO serve: /app/Inventory
+I 09/04/2012 14:58:45:100 00001270                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/index.erb
+I 09/04/2012 14:58:45:100 00001270           HttpServer| GC Start.
+I 09/04/2012 14:58:45:100 00001270           HttpServer| GC End.
+I 09/04/2012 14:58:45:131 000003b0           MainWindow| WebView: URL changed
+I 09/04/2012 14:58:46:226 00001270           HttpServer| Process URI: '/app'
+I 09/04/2012 14:58:46:226 00001270           HttpServer| Process URI: '/app/index.erb'
+I 09/04/2012 14:58:46:226 00001270                  APP| RHO serve_index: /app/index.erb
+I 09/04/2012 14:58:46:226 00001270 RHO Rho::RhoController| inst_render_index
+I 09/04/2012 14:58:46:226 00001270                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/index.erb
+I 09/04/2012 14:58:46:226 00001270           HttpServer| GC Start.
+I 09/04/2012 14:58:46:241 00001270           HttpServer| GC End.
+I 09/04/2012 14:58:46:257 000003b0           MainWindow| WebView: URL changed
+I 09/04/2012 14:58:47:493 00001270           HttpServer| Process URI: '/app/Inventory/scanPage'
+I 09/04/2012 14:58:47:493 00001270                  APP| RHO serve: /app/Inventory/scanPage
+I 09/04/2012 14:58:47:508 00001270                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/scanPage.erb
+I 09/04/2012 14:58:47:508 00001270           HttpServer| GC Start.
+I 09/04/2012 14:58:47:508 00001270           HttpServer| GC End.
+I 09/04/2012 14:58:47:524 000003b0           MainWindow| WebView: URL changed
+I 09/04/2012 14:58:47:539 00001270           HttpServer| Process URI: '/public/images/barcode.jpg'
+E 09/04/2012 14:58:47:539 00001270           HttpServer| The file /public/images/barcode.jpg was not found
+I 09/04/2012 14:58:50:771 00001270           HttpServer| Process URI: '/app/Inventory/index'
+I 09/04/2012 14:58:50:771 00001270                  APP| RHO serve: /app/Inventory/index
+I 09/04/2012 14:58:50:786 00001270                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/index.erb
+I 09/04/2012 14:58:50:786 00001270           HttpServer| GC Start.
+I 09/04/2012 14:58:50:786 00001270           HttpServer| GC End.
+I 09/04/2012 14:58:50:817 000003b0           MainWindow| WebView: URL changed
+I 09/04/2012 14:58:53:992 000003b0            RhodesApp| callAppActiveCallback
+I 09/04/2012 14:58:53:992 000003b0         AppCallbacks| addCommand: APP-DEACTIVATED
+I 09/04/2012 14:58:53:992 000003b0                  Net| Method: GET;Url: http://127.0.0.1:63075/system/deactivateapp
+I 09/04/2012 14:58:53:992 00000510         AppCallbacks| process command: APP-DEACTIVATED
+I 09/04/2012 14:58:53:992 00000510         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 14:58:53:992 00001270           HttpServer| Process URI: '/system/deactivateapp'
+I 09/04/2012 14:58:53:992 000003b0                  Net| Method: GET;Url: http://127.0.0.1:63075/system/uidestroyed
+I 09/04/2012 14:58:53:992 00001270           HttpServer| Process URI: '/system/uidestroyed'
+I 09/04/2012 14:58:53:992 00000510         AppCallbacks| Thread shutdown
+I 09/04/2012 14:58:53:992 000003b0           HttpServer| Stopping server...
+I 09/04/2012 14:58:53:992 00001270            RhodesApp| RhodesApp thread shutdown
+I 09/04/2012 14:58:53:992 00001270          GeoLocation| Destroying singleton instance.
+I 09/04/2012 14:58:53:992 00001270                 Sync| Stopping Sync thread
+I 09/04/2012 15:00:29:844 000017ac            RhodesApp| New start params: "-approot='C:/Users/QPBH84/workspace/InventoryManagement'" "-rhodespath='C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3'"
+I 09/04/2012 15:00:29:844 000017ac      Rhodes.cpp: 432| Rhodes started
+I 09/04/2012 15:00:29:844 00001bf8         AppCallbacks| Starting main routine...
+I 09/04/2012 15:00:29:844 00001bf8         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 15:00:29:844 000017ac            RhodesApp| Trying to get free listening port.
+I 09/04/2012 15:00:29:844 000017ac            RhodesApp| Trying to bind of 0 port...
+I 09/04/2012 15:00:29:844 000017ac            RhodesApp| Got port to bind on: 63180
+I 09/04/2012 15:00:29:844 000017ac            RhodesApp| Free listening port: 63180
+I 09/04/2012 15:00:29:875 000017ac            RhodesApp| callAppActiveCallback
+I 09/04/2012 15:00:29:875 000017ac         AppCallbacks| addCommand: APP-ACTIVATED
+I 09/04/2012 15:00:29:875 00001bf8         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 09/04/2012 15:00:29:875 00001bf8         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 15:00:29:875 000017ac         AppCallbacks| addCommand: UI-CREATED
+I 09/04/2012 15:00:29:875 00001bf8         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 09/04/2012 15:00:29:875 000017ac           MainWindow| navigate: 'about:blank'
+I 09/04/2012 15:00:29:875 00001608            RhodesApp| Starting RhodesApp main routine...
+I 09/04/2012 15:00:29:875 000017ac           MainWindow| WebView: loading...
+I 09/04/2012 15:00:29:875 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:00:29:875 000017ac           MainWindow| WebView: loaded 
+I 09/04/2012 15:00:29:875 00001bf8         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 15:00:29:891 00001608              RhoRuby| Init_RhoBlobs: C:/Users/QPBH84/workspace/InventoryManagement/rhosimulator/db/db-files
+I 09/04/2012 15:00:29:891 00001608              RhoRuby| require_compiled: digest
+I 09/04/2012 15:00:29:891 00001608              RhoRuby| require_compiled: rhoframework
+I 09/04/2012 15:00:29:891 00001608              RhoRuby| require_compiled: rational
+I 09/04/2012 15:00:29:891 00001608              RhoRuby| require_compiled: rhom/rhom_db_adapter
+I 09/04/2012 15:00:29:891 00001608              RhoRuby| require_compiled: rhodes
+I 09/04/2012 15:00:29:891 00001608              RhoRuby| require_compiled: rhom/rhom_object
+I 09/04/2012 15:00:29:891 00001608              RhoRuby| require_compiled: rhofsconnector
+I 09/04/2012 15:00:29:906 00001608              RhoRuby| require_compiled: rho/rhofsconnector
+I 09/04/2012 15:00:29:906 00001608              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 09/04/2012 15:00:29:922 00001608              RhoRuby| require_compiled: rhom/rhom
+I 09/04/2012 15:00:29:922 00001608              RhoRuby| require_compiled: rhom/rhom_model
+I 09/04/2012 15:00:29:922 00001608              RhoRuby| require_compiled: rhom
+I 09/04/2012 15:00:29:922 00001608              RhoRuby| require_compiled: rho/rhoapplication
+I 09/04/2012 15:00:29:937 00001608              RhoRuby| require_compiled: rholang/localization_simplified
+I 09/04/2012 15:00:29:937 00001608              RhoRuby| require_compiled: rho/rhomsg
+I 09/04/2012 15:00:29:937 00001608              RhoRuby| require_compiled: rho/rhotabbar
+I 09/04/2012 15:00:29:937 00001608              RhoRuby| require_compiled: rho/rhotoolbar
+I 09/04/2012 15:00:29:937 00001608                  APP| Current locale: ; Country code: 
+I 09/04/2012 15:00:29:937 00001608                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/lang_
+I 09/04/2012 15:00:29:937 00001608              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/lang_en
+I 09/04/2012 15:00:29:937 00001608                  APP| Locilized file: C:/Users/QPBH84/workspace/InventoryManagement/app/lang/lang_
+I 09/04/2012 15:00:29:937 00001608                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhoerror_
+I 09/04/2012 15:00:29:937 00001608              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhoerror_en
+I 09/04/2012 15:00:29:937 00001608                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhomsg_
+I 09/04/2012 15:00:29:937 00001608              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhomsg_en
+I 09/04/2012 15:00:29:937 00001608              RhoRuby| require_compiled: indifferent_access
+I 09/04/2012 15:00:29:937 00001608              RhoRuby| require_compiled: rho/rhosupport
+I 09/04/2012 15:00:29:937 00001608              RhoRuby| require_compiled: rho/rhocontroller
+I 09/04/2012 15:00:29:953 00001608              RhoRuby| require_compiled: rho/render
+I 09/04/2012 15:00:29:953 00001608              RhoRuby| require_compiled: rho/rho
+I 09/04/2012 15:00:29:969 00001608              RhoRuby| require_compiled: rho/rhoerror
+I 09/04/2012 15:00:29:969 00001608              RhoRuby| require_compiled: rhom/rhom_source
+E 09/04/2012 15:00:29:969 00001608              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 09/04/2012 15:00:29:969 00001608              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 09/04/2012 15:00:29:969 00001608              RhoRuby| require_compiled: rho
+I 09/04/2012 15:00:29:969 00001608              RhoRuby| require_compiled: debugger
+I 09/04/2012 15:00:29:969 00001608              RhoRuby| require_compiled: uri
+I 09/04/2012 15:00:29:969 00001608              RhoRuby| require_compiled: uri/common
+I 09/04/2012 15:00:29:984 00001608              RhoRuby| require_compiled: uri/generic
+I 09/04/2012 15:00:29:984 00001608              RhoRuby| require_compiled: uri/ftp
+I 09/04/2012 15:00:30:000 00001608              RhoRuby| require_compiled: uri/http
+I 09/04/2012 15:00:30:000 00001608              RhoRuby| require_compiled: uri/https
+I 09/04/2012 15:00:30:000 00001608              RhoRuby| require_compiled: uri/ldap
+I 09/04/2012 15:00:30:000 00001608              RhoRuby| require_compiled: uri/ldaps
+I 09/04/2012 15:00:30:000 00001608              RhoRuby| require_compiled: uri/mailto
+I 09/04/2012 15:00:30:000 00001608              RhoRuby| require_compiled: timeout
+I 09/04/2012 15:00:31:029 00001608                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
+I 09/04/2012 15:00:31:029 00001608                  APP| RHO loaded
+I 09/04/2012 15:00:31:029 00001608                  APP| Calling RHO.initialize
+I 09/04/2012 15:00:31:029 00001608              RhoRuby| require_compiled: rhoappmanifest
+I 09/04/2012 15:00:31:029 00001608              RhoRuby| require_compiled: find
+I 09/04/2012 15:00:31:061 00001608                  APP| model file: ProductCatalog/product_catalog
+I 09/04/2012 15:00:31:061 00001608                  APP| model file: Inventory/inventory
+I 09/04/2012 15:00:31:061 00001608                   DB| Open DB: C:/Users/QPBH84/workspace/InventoryManagement/rhosimulator/db/syncdbuser.sqlite
+I 09/04/2012 15:00:31:061 00001608          GeoLocation| Creating singleton instance.
+I 09/04/2012 15:00:31:061 00001608            RhodesApp| Starting sync engine...
+I 09/04/2012 15:00:31:061 00001608                 Sync| sync_poll_interval: 0
+I 09/04/2012 15:00:31:061 00001608                 Sync| syncserver: 
+I 09/04/2012 15:00:31:061 00001608                 Sync| bulksync_state: 0
+I 09/04/2012 15:00:31:061 00001608            RhodesApp| RhoRubyInitApp...
+I 09/04/2012 15:00:31:061 00001608                  APP| init_app
+I 09/04/2012 15:00:31:061 00001608              RhoRuby| require_compiled: application
+I 09/04/2012 15:00:31:061 00001608                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:63180/app/Settings/sync_notify; Params: 
+I 09/04/2012 15:00:31:061 00001608                  APP| const_missing: ProductCatalog
+I 09/04/2012 15:00:31:061 00001608                  APP| load_model: ProductCatalog
+I 09/04/2012 15:00:31:061 00001608              RhoRuby| require_compiled: ProductCatalog/product_catalog
+I 09/04/2012 15:00:31:061 00001608                  APP| model name: ProductCatalog
+I 09/04/2012 15:00:31:061 00001608                  APP| model class found
+I 09/04/2012 15:00:31:061 00001608                  APP| ProductCatalog : {"property"=>{}}
+I 09/04/2012 15:00:31:061 00001608                   DB| Open DB: C:/Users/QPBH84/workspace/InventoryManagement/rhosimulator/db/syncdblocal.sqlite
+I 09/04/2012 15:00:31:076 00001608                  APP| init_db_sources
+I 09/04/2012 15:00:31:076 00001608                  APP| start_id: 40005
+I 09/04/2012 15:00:31:076 00001608                  APP| Migrate schema sources: {}
+I 09/04/2012 15:00:31:076 00001608           HttpServer| Start HTTP server
+I 09/04/2012 15:00:31:076 00001608           HttpServer| Listen for connections on port 63180
+I 09/04/2012 15:00:31:076 00001608         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 09/04/2012 15:00:31:076 00001bf8         AppCallbacks| process command: LOCAL-SERVER-STARTED
+I 09/04/2012 15:00:31:076 00001bf8  SystemImpl.cpp: 717| rho_sys_report_app_started() has no implementation on Win Mobile.
+I 09/04/2012 15:00:31:076 00001bf8         AppCallbacks| process command: UI-CREATED
+I 09/04/2012 15:00:31:076 00001bf8                  Net| Method: GET;Url: http://127.0.0.1:63180/system/uicreated
+I 09/04/2012 15:00:31:092 00001608           HttpServer| Process URI: '/system/uicreated'
+I 09/04/2012 15:00:31:092 00001608                  APP| on_ui_created.navigate to start url: '/app'
+I 09/04/2012 15:00:31:092 000017ac           MainWindow| navigate: 'http://127.0.0.1:63180/app'
+I 09/04/2012 15:00:31:092 000017ac           MainWindow| WebView: loading...
+I 09/04/2012 15:00:31:092 00001bf8         AppCallbacks| process command: APP-ACTIVATED
+I 09/04/2012 15:00:31:092 00001bf8                  Net| Method: GET;Url: http://127.0.0.1:63180/system/activateapp
+I 09/04/2012 15:00:31:092 00001608           HttpServer| Process URI: '/system/activateapp'
+I 09/04/2012 15:00:31:092 00001608           HttpServer| Process URI: '/app'
+I 09/04/2012 15:00:31:092 00001bf8         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 15:00:31:092 00001608           HttpServer| Process URI: '/app/index.erb'
+I 09/04/2012 15:00:31:092 00001608                  APP| RHO serve_index: /app/index.erb
+I 09/04/2012 15:00:31:092 00001608 RHO Rho::RhoController| inst_render_index
+I 09/04/2012 15:00:31:092 00001608              RhoRuby| require_compiled: erb
+I 09/04/2012 15:00:31:107 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/index.erb
+I 09/04/2012 15:00:31:107 00001608 RHO Rho::RhoController| index layout
+I 09/04/2012 15:00:31:107 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/layout.erb
+I 09/04/2012 15:00:31:107 000017ac           MainWindow| addToolbarButton: Label: '';Action: 'back'
+I 09/04/2012 15:00:31:107 00001608           HttpServer| GC Start.
+I 09/04/2012 15:00:31:107 000017ac           MainWindow| addToolbarButton: Label: '';Action: 'separator'
+I 09/04/2012 15:00:31:107 000017ac           MainWindow| addToolbarButton: Label: '';Action: 'home'
+I 09/04/2012 15:00:31:107 000017ac           MainWindow| addToolbarButton: Label: '';Action: 'refresh'
+I 09/04/2012 15:00:31:107 000017ac           MainWindow| addToolbarButton: Label: '';Action: 'options'
+I 09/04/2012 15:00:31:107 00001608           HttpServer| GC End.
+I 09/04/2012 15:00:31:107 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:00:31:123 00001608           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.min.js'
+I 09/04/2012 15:00:31:123 00001608           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 09/04/2012 15:00:31:123 00001608           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.css'
+I 09/04/2012 15:00:31:123 00001608           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 09/04/2012 15:00:31:123 00001608           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 09/04/2012 15:00:31:123 00001608           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 09/04/2012 15:00:31:139 00001608           HttpServer| Process URI: '/public/css/android.css'
+I 09/04/2012 15:00:31:232 00001608           HttpServer| Process URI: '/public/jqmobile/images/icons-18-white.png'
+I 09/04/2012 15:00:31:248 000017ac           MainWindow| WebView: loaded 
+I 09/04/2012 15:00:32:607 00001608           HttpServer| Process URI: '/app/Inventory/scanPage'
+I 09/04/2012 15:00:32:607 00001608                  APP| RHO serve: /app/Inventory/scanPage
+I 09/04/2012 15:00:32:607 00001608              RhoRuby| require_compiled: Inventory/inventory_controller
+I 09/04/2012 15:00:32:607 00001608              RhoRuby| require_compiled: helpers/browser_helper
+I 09/04/2012 15:00:32:607 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/scanPage.erb
+I 09/04/2012 15:00:32:607 00001608           HttpServer| GC Start.
+I 09/04/2012 15:00:32:607 00001608           HttpServer| GC End.
+I 09/04/2012 15:00:32:607 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:00:32:623 00001608           HttpServer| Process URI: '/public/images/barcode.jpg'
+E 09/04/2012 15:00:32:623 00001608           HttpServer| The file /public/images/barcode.jpg was not found
+I 09/04/2012 15:00:33:614 00001608           HttpServer| Process URI: '/app/Inventory/index'
+I 09/04/2012 15:00:33:614 00001608                  APP| RHO serve: /app/Inventory/index
+I 09/04/2012 15:00:33:614 00001608                  APP| const_missing: Inventory
+I 09/04/2012 15:00:33:614 00001608                  APP| load_model: Inventory
+I 09/04/2012 15:00:33:614 00001608              RhoRuby| require_compiled: Inventory/inventory
+I 09/04/2012 15:00:33:614 00001608                  APP| model name: Inventory
+I 09/04/2012 15:00:33:614 00001608                  APP| model class found
+I 09/04/2012 15:00:33:614 00001608                  APP| Inventory : {"property"=>{}}
+I 09/04/2012 15:00:33:614 00001608                  APP| init_db_sources
+I 09/04/2012 15:00:33:614 00001608                  APP| start_id: 40005
+I 09/04/2012 15:00:33:614 00001608                  APP| Migrate schema sources: {}
+I 09/04/2012 15:00:33:614 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/index.erb
+I 09/04/2012 15:00:33:629 00001608           HttpServer| GC Start.
+I 09/04/2012 15:00:33:629 00001608           HttpServer| GC End.
+I 09/04/2012 15:00:33:645 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:00:36:883 00001608           HttpServer| Process URI: '/app'
+I 09/04/2012 15:00:36:883 00001608           HttpServer| Process URI: '/app/index.erb'
+I 09/04/2012 15:00:36:883 00001608                  APP| RHO serve_index: /app/index.erb
+I 09/04/2012 15:00:36:883 00001608 RHO Rho::RhoController| inst_render_index
+I 09/04/2012 15:00:36:883 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/index.erb
+I 09/04/2012 15:00:36:899 00001608           HttpServer| GC Start.
+I 09/04/2012 15:00:36:899 00001608           HttpServer| GC End.
+I 09/04/2012 15:00:36:914 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:00:38:003 00001608           HttpServer| Process URI: '/app/Inventory/scanPage'
+I 09/04/2012 15:00:38:003 00001608                  APP| RHO serve: /app/Inventory/scanPage
+I 09/04/2012 15:00:38:003 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/scanPage.erb
+I 09/04/2012 15:00:38:003 00001608           HttpServer| GC Start.
+I 09/04/2012 15:00:38:003 00001608           HttpServer| GC End.
+I 09/04/2012 15:00:38:034 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:00:38:034 00001608           HttpServer| Process URI: '/public/images/barcode.jpg'
+E 09/04/2012 15:00:38:034 00001608           HttpServer| The file /public/images/barcode.jpg was not found
+I 09/04/2012 15:00:40:069 00001608           HttpServer| Process URI: '/app/Inventory/index'
+I 09/04/2012 15:00:40:069 00001608                  APP| RHO serve: /app/Inventory/index
+I 09/04/2012 15:00:40:085 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/index.erb
+I 09/04/2012 15:00:40:085 00001608           HttpServer| GC Start.
+I 09/04/2012 15:00:40:085 00001608           HttpServer| GC End.
+I 09/04/2012 15:00:40:116 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:00:40:979 00001608           HttpServer| Process URI: '/app/Inventory/{115997869484421.11}/edit'
+I 09/04/2012 15:00:40:979 00001608                  APP| RHO serve: /app/Inventory/{115997869484421.11}/edit
+I 09/04/2012 15:00:40:979 00001608                  APP| Params: {"id"=>"{115997869484421.11}"}
+I 09/04/2012 15:00:40:979 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/edit.erb
+I 09/04/2012 15:00:40:979 00001608           HttpServer| GC Start.
+I 09/04/2012 15:00:40:979 00001608           HttpServer| GC End.
+I 09/04/2012 15:00:41:010 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:00:42:590 00001608           HttpServer| Process URI: '/app/Inventory/{115997869484421.11}/show'
+I 09/04/2012 15:00:42:590 00001608                  APP| RHO serve: /app/Inventory/{115997869484421.11}/show
+I 09/04/2012 15:00:42:590 00001608                  APP| Params: {"id"=>"{115997869484421.11}"}
+I 09/04/2012 15:00:42:605 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/show.erb
+I 09/04/2012 15:00:42:605 00001608           HttpServer| GC Start.
+I 09/04/2012 15:00:42:605 00001608           HttpServer| GC End.
+I 09/04/2012 15:00:42:621 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:00:44:123 00001608           HttpServer| Process URI: '/app/Inventory'
+I 09/04/2012 15:00:44:123 00001608                  APP| RHO serve: /app/Inventory
+I 09/04/2012 15:00:44:123 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/Inventory/index.erb
+I 09/04/2012 15:00:44:123 00001608           HttpServer| GC Start.
+I 09/04/2012 15:00:44:123 00001608           HttpServer| GC End.
+I 09/04/2012 15:00:44:139 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:00:44:768 00001608           HttpServer| Process URI: '/app'
+I 09/04/2012 15:00:44:768 00001608           HttpServer| Process URI: '/app/index.erb'
+I 09/04/2012 15:00:44:768 00001608                  APP| RHO serve_index: /app/index.erb
+I 09/04/2012 15:00:44:768 00001608 RHO Rho::RhoController| inst_render_index
+I 09/04/2012 15:00:44:768 00001608                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/index.erb
+I 09/04/2012 15:00:44:768 00001608           HttpServer| GC Start.
+I 09/04/2012 15:00:44:768 00001608           HttpServer| GC End.
+I 09/04/2012 15:00:44:784 000017ac           MainWindow| WebView: URL changed
+I 09/04/2012 15:01:14:109 000017ac            RhodesApp| callAppActiveCallback
+I 09/04/2012 15:01:14:109 000017ac         AppCallbacks| addCommand: APP-DEACTIVATED
+I 09/04/2012 15:01:14:109 000017ac                  Net| Method: GET;Url: http://127.0.0.1:63180/system/deactivateapp
+I 09/04/2012 15:01:14:109 00001bf8         AppCallbacks| process command: APP-DEACTIVATED
+I 09/04/2012 15:01:14:109 00001bf8         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 15:01:14:109 00001608           HttpServer| Process URI: '/system/deactivateapp'
+I 09/04/2012 15:01:14:109 000017ac                  Net| Method: GET;Url: http://127.0.0.1:63180/system/uidestroyed
+I 09/04/2012 15:01:14:109 00001608           HttpServer| Process URI: '/system/uidestroyed'
+I 09/04/2012 15:01:14:109 00001bf8         AppCallbacks| Thread shutdown
+I 09/04/2012 15:01:14:109 000017ac           HttpServer| Stopping server...
+I 09/04/2012 15:01:14:109 00001608            RhodesApp| RhodesApp thread shutdown
+I 09/04/2012 15:01:14:109 00001608          GeoLocation| Destroying singleton instance.
+I 09/04/2012 15:01:14:109 00001608                 Sync| Stopping Sync thread
+d: find
+I 09/04/2012 14:37:39:695 00001ba4                  APP| model file: ProductCatalog/product_catalog
+I 09/04/2012 14:37:39:695 00001ba4                  APP| model file: Inventory/inventory
+I 09/04/2012 14:37:39:695 00001ba4                   DB| Open DB: C:/Users/QPBH84/workspace/InventoryManagement/rhosimulator/db/syncdbuser.sqlite
+I 09/04/2012 14:37:39:695 00001ba4          GeoLocation| Creating singleton instance.
+I 09/04/2012 14:37:39:695 00001ba4            RhodesApp| Starting sync engine...
+I 09/04/2012 14:37:39:695 00001ba4                 Sync| sync_poll_interval: 0
+I 09/04/2012 14:37:39:695 00001ba4                 Sync| syncserver: 
+I 09/04/2012 14:37:39:695 00001ba4                 Sync| bulksync_state: 0
+I 09/04/2012 14:37:39:695 00001ba4            RhodesApp| RhoRubyInitApp...
+I 09/04/2012 14:37:39:695 00001ba4                  APP| init_app
+I 09/04/2012 14:37:39:695 00001ba4              RhoRuby| require_compiled: application
+I 09/04/2012 14:37:39:695 00001ba4                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:62985/app/Settings/sync_notify; Params: 
+I 09/04/2012 14:37:39:695 00001ba4                  APP| const_missing: ProductCatalog
+I 09/04/2012 14:37:39:695 00001ba4                  APP| load_model: ProductCatalog
+I 09/04/2012 14:37:39:695 00001ba4              RhoRuby| require_compiled: ProductCatalog/product_catalog
+I 09/04/2012 14:37:39:695 00001ba4                  APP| model name: ProductCatalog
+I 09/04/2012 14:37:39:695 00001ba4                  APP| model class found
+I 09/04/2012 14:37:39:695 00001ba4                  APP| ProductCatalog : {"property"=>{}}
+I 09/04/2012 14:37:39:695 00001ba4                   DB| Open DB: C:/Users/QPBH84/workspace/InventoryManagement/rhosimulator/db/syncdblocal.sqlite
+I 09/04/2012 14:37:39:695 00001ba4                  APP| init_db_sources
+I 09/04/2012 14:37:39:710 00001ba4                  APP| start_id: 40004
+I 09/04/2012 14:37:39:710 00001ba4                  APP| Migrate schema sources: {}
+I 09/04/2012 14:37:39:710 00001ba4           HttpServer| Start HTTP server
+I 09/04/2012 14:37:39:710 00001ba4           HttpServer| Listen for connections on port 62985
+I 09/04/2012 14:37:39:710 00001ba4         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 09/04/2012 14:37:39:710 000018f4         AppCallbacks| process command: LOCAL-SERVER-STARTED
+I 09/04/2012 14:37:39:710 000018f4  SystemImpl.cpp: 717| rho_sys_report_app_started() has no implementation on Win Mobile.
+I 09/04/2012 14:37:39:710 000018f4         AppCallbacks| process command: UI-CREATED
+I 09/04/2012 14:37:39:710 000018f4                  Net| Method: GET;Url: http://127.0.0.1:62985/system/uicreated
+I 09/04/2012 14:37:39:726 00001ba4           HttpServer| Process URI: '/system/uicreated'
+I 09/04/2012 14:37:39:726 00001ba4                  APP| on_ui_created.navigate to start url: '/app'
+I 09/04/2012 14:37:39:726 0000086c           MainWindow| navigate: 'http://127.0.0.1:62985/app'
+I 09/04/2012 14:37:39:726 000018f4         AppCallbacks| process command: APP-ACTIVATED
+I 09/04/2012 14:37:39:726 0000086c           MainWindow| WebView: loading...
+I 09/04/2012 14:37:39:726 000018f4                  Net| Method: GET;Url: http://127.0.0.1:62985/system/activateapp
+I 09/04/2012 14:37:39:726 00001ba4           HttpServer| Process URI: '/system/activateapp'
+I 09/04/2012 14:37:39:726 000018f4         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 14:37:39:726 00001ba4           HttpServer| Process URI: '/app'
+I 09/04/2012 14:37:39:726 00001ba4           HttpServer| Process URI: '/app/index.erb'
+I 09/04/2012 14:37:39:726 00001ba4                  APP| RHO serve_index: /app/index.erb
+I 09/04/2012 14:37:39:726 00001ba4 RHO Rho::RhoController| inst_render_index
+I 09/04/2012 14:37:39:726 00001ba4              RhoRuby| require_compiled: erb
+I 09/04/2012 14:37:39:726 00001ba4                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/index.erb
+I 09/04/2012 14:37:39:726 00001ba4 RHO Rho::RhoController| index layout
+I 09/04/2012 14:37:39:726 00001ba4                  APP| eval_compiled_file : C:/Users/QPBH84/workspace/InventoryManagement/app/layout.erb
+I 09/04/2012 14:37:39:726 0000086c           MainWindow| addToolbarButton: Label: '';Action: 'back'
+I 09/04/2012 14:37:39:726 00001ba4           HttpServer| GC Start.
+I 09/04/2012 14:37:39:726 0000086c           MainWindow| addToolbarButton: Label: '';Action: 'separator'
+I 09/04/2012 14:37:39:726 0000086c           MainWindow| addToolbarButton: Label: '';Action: 'home'
+I 09/04/2012 14:37:39:726 0000086c           MainWindow| addToolbarButton: Label: '';Action: 'refresh'
+I 09/04/2012 14:37:39:726 0000086c           MainWindow| addToolbarButton: Label: '';Action: 'options'
+I 09/04/2012 14:37:39:726 00001ba4           HttpServer| GC End.
+I 09/04/2012 14:37:39:741 0000086c           MainWindow| WebView: URL changed
+I 09/04/2012 14:37:39:757 00001ba4           HttpServer| Process URI: '/public/jquery/jquery-1.6.4.min.js'
+I 09/04/2012 14:37:39:757 00001ba4           HttpServer| Process URI: '/public/jquery/jquery.json-2.3.min.js'
+I 09/04/2012 14:37:39:757 00001ba4           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.css'
+I 09/04/2012 14:37:39:757 00001ba4           HttpServer| Process URI: '/public/css/jqmobile-patch.css'
+I 09/04/2012 14:37:39:757 00001ba4           HttpServer| Process URI: '/public/jqmobile/jquery.mobile-1.0.1.min.js'
+I 09/04/2012 14:37:39:757 00001ba4           HttpServer| Process URI: '/public/js/jqmobile-patch.js'
+I 09/04/2012 14:37:39:788 00001ba4           HttpServer| Process URI: '/public/css/android.css'
+I 09/04/2012 14:37:39:866 00001ba4           HttpServer| Process URI: '/public/jqmobile/images/icons-18-white.png'
+I 09/04/2012 14:37:39:882 0000086c           MainWindow| WebView: loaded 
+I 09/04/2012 14:37:41:446 00001ba4           HttpServer| Process URI: '/app/Inventory'
+I 09/04/2012 14:37:41:446 00001ba4                  APP| RHO serve: /app/Inventory
+I 09/04/2012 14:37:41:446 00001ba4              RhoRuby| require_compiled: Inventory/inventory_controller
+I 09/04/2012 14:37:41:446 00001ba4              RhoRuby| require_compiled: helpers/browser_helper
+I 09/04/2012 14:37:41:446 00001ba4                  APP| const_missing: Inventory
+I 09/04/2012 14:37:41:446 00001ba4                  APP| load_model: Inventory
+I 09/04/2012 14:37:41:446 00001ba4              RhoRuby| require_compiled: Inventory/inventory
+I 09/04/2012 14:37:41:446 00001ba4                  APP| model name: Inventory
+I 09/04/2012 14:37:41:446 00001ba4                  APP| model class found
+I 09/04/2012 14:37:41:446I 09/04/2012 14:58:28:765 00001930            RhodesApp| callAppActiveCallback
+I 09/04/2012 14:58:28:765 00001930         AppCallbacks| addCommand: APP-DEACTIVATED
+I 09/04/2012 14:58:28:765 00001930                  Net| Method: GET;Url: http://127.0.0.1:62508/system/deactivateapp
+I 09/04/2012 14:58:28:765 000011d0         AppCallbacks| process command: APP-DEACTIVATED
+I 09/04/2012 14:58:28:765 000011d0         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 14:58:28:780 000017c4           HttpServer| Process URI: '/system/deactivateapp'
+I 09/04/2012 14:58:28:780 00001930                  Net| Method: GET;Url: http://127.0.0.1:62508/system/uidestroyed
+I 09/04/2012 14:58:28:780 000017c4           HttpServer| Process URI: '/system/uidestroyed'
+I 09/04/2012 14:58:28:780 000011d0         AppCallbacks| Thread shutdown
+I 09/04/2012 14:58:28:780 00001930           HttpServer| Stopping server...
+I 09/04/2012 14:58:28:780 000017c4            RhodesApp| RhodesApp thread shutdown
+I 09/04/2012 14:58:28:780 000017c4          GeoLocation| Destroying singleton instance.
+I 09/04/2012 14:58:28:780 000017c4                 Sync| Stopping Sync thread
+I 09/04/2012 14:58:35:644 000003b0            RhodesApp| New start params: "-approot='C:/Users/QPBH84/workspace/InventoryManagement'" "-rhodespath='C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3'"
+I 09/04/2012 14:58:35:644 000003b0      Rhodes.cpp: 432| Rhodes started
+I 09/04/2012 14:58:35:644 00000510         AppCallbacks| Starting main routine...
+I 09/04/2012 14:58:35:644 00000510         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 14:58:35:644 000003b0            RhodesApp| Trying to get free listening port.
+I 09/04/2012 14:58:35:644 000003b0            RhodesApp| Trying to bind of 0 port...
+I 09/04/2012 14:58:35:644 000003b0            RhodesApp| Got port to bind on: 63075
+I 09/04/2012 14:58:35:644 000003b0            RhodesApp| Free listening port: 63075
+I 09/04/2012 14:58:35:691 000003b0            RhodesApp| callAppActiveCallback
+I 09/04/2012 14:58:35:691 000003b0         AppCallbacks| addCommand: APP-ACTIVATED
+I 09/04/2012 14:58:35:691 00000510         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 09/04/2012 14:58:35:691 00000510         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 14:58:35:691 000003b0         AppCallbacks| addCommand: UI-CREATED
+I 09/04/2012 14:58:35:691 00000510         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I 09/04/2012 14:58:35:691 000003b0           MainWindow| navigate: 'about:blank'
+I 09/04/2012 14:58:35:691 00000510         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I 09/04/2012 14:58:35:691 00001270            RhodesApp| Starting RhodesApp main routine...
+I 09/04/2012 14:58:35:691 000003b0           MainWindow| WebView: loading...
+I 09/04/2012 14:58:35:691 000003b0           MainWindow| WebView: URL changed
+I 09/04/2012 14:58:35:691 000003b0           MainWindow| WebView: loaded 
+I 09/04/2012 14:58:35:691 00001270              RhoRuby| Init_RhoBlobs: C:/Users/QPBH84/workspace/InventoryManagement/rhosimulator/db/db-files
+I 09/04/2012 14:58:35:707 00001270              RhoRuby| require_compiled: digest
+I 09/04/2012 14:58:35:707 00001270              RhoRuby| require_compiled: rhoframework
+I 09/04/2012 14:58:35:707 00001270              RhoRuby| require_compiled: rational
+I 09/04/2012 14:58:35:707 00001270              RhoRuby| require_compiled: rhom/rhom_db_adapter
+I 09/04/2012 14:58:35:707 00001270              RhoRuby| require_compiled: rhodes
+I 09/04/2012 14:58:35:707 00001270              RhoRuby| require_compiled: rhom/rhom_object
+I 09/04/2012 14:58:35:707 00001270              RhoRuby| require_compiled: rhofsconnector
+I 09/04/2012 14:58:35:707 00001270              RhoRuby| require_compiled: rho/rhofsconnector
+I 09/04/2012 14:58:35:707 00001270              RhoRuby| require_compiled: rhom/rhom_object_factory
+I 09/04/2012 14:58:35:738 00001270              RhoRuby| require_compiled: rhom/rhom
+I 09/04/2012 14:58:35:754 00001270              RhoRuby| require_compiled: rhom/rhom_model
+I 09/04/2012 14:58:35:754 00001270              RhoRuby| require_compiled: rhom
+I 09/04/2012 14:58:35:754 00001270              RhoRuby| require_compiled: rho/rhoapplication
+I 09/04/2012 14:58:35:754 00001270              RhoRuby| require_compiled: rholang/localization_simplified
+I 09/04/2012 14:58:35:754 00001270              RhoRuby| require_compiled: rho/rhomsg
+I 09/04/2012 14:58:35:754 00001270              RhoRuby| require_compiled: rho/rhotabbar
+I 09/04/2012 14:58:35:754 00001270              RhoRuby| require_compiled: rho/rhotoolbar
+I 09/04/2012 14:58:35:754 00001270                  APP| Current locale: ; Country code: 
+I 09/04/2012 14:58:35:754 00001270                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/lang_
+I 09/04/2012 14:58:35:754 00001270              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/lang_en
+I 09/04/2012 14:58:35:769 00001270                  APP| Locilized file: C:/Users/QPBH84/workspace/InventoryManagement/app/lang/lang_
+I 09/04/2012 14:58:35:769 00001270                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhoerror_
+I 09/04/2012 14:58:35:769 00001270              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhoerror_en
+I 09/04/2012 14:58:35:769 00001270                  APP| Locilized file: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhomsg_
+I 09/04/2012 14:58:35:769 00001270              RhoRuby| require_compiled: C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3/lib/framework/rholang/rhomsg_en
+I 09/04/2012 14:58:35:769 00001270              RhoRuby| require_compiled: indifferent_access
+I 09/04/2012 14:58:35:769 00001270              RhoRuby| require_compiled: rho/rhosupport
+I 09/04/2012 14:58:35:769 00001270              RhoRuby| require_compiled: rho/rhocontroller
+I 09/04/2012 14:58:35:769 00001270              RhoRuby| require_compiled: rho/render
+I 09/04/2012 14:58:35:785 00001270              RhoRuby| require_compiled: rho/rho
+I 09/04/2012 14:58:35:800 00001270              RhoRuby| require_compiled: rho/rhoerror
+I 09/04/2012 14:58:35:800 00001270              RhoRuby| require_compiled: rhom/rhom_source
+E 09/04/2012 14:58:35:800 00001270              RhoRuby| require_compiled: error: can not find rhodes_translator
+I 09/04/2012 14:58:35:800 00001270              RhoRuby| require_compiled: rho/rhoviewhelpers
+I 09/04/2012 14:58:35:800 00001270              RhoRuby| require_compiled: rho
+I 09/04/2012 14:58:35:800 00001270              RhoRuby| require_compiled: debugger
+I 09/04/2012 14:58:35:800 00001270              RhoRuby| require_compiled: uri
+I 09/04/2012 14:58:35:800 00001270              RhoRuby| require_compiled: uri/common
+I 09/04/2012 14:58:35:816 00001270              RhoRuby| require_compiled: uri/generic
+I 09/04/2012 14:58:35:816 00001270              RhoRuby| require_compiled: uri/ftp
+I 09/04/2012 14:58:35:832 00001270              RhoRuby| require_compiled: uri/http
+I 09/04/2012 14:58:35:832 00001270              RhoRuby| require_compiled: uri/https
+I 09/04/2012 14:58:35:832 00001270              RhoRuby| require_compiled: uri/ldap
+I 09/04/2012 14:58:35:832 00001270              RhoRuby| require_compiled: uri/ldaps
+I 09/04/2012 14:58:35:832 00001270              RhoRuby| require_compiled: uri/mailto
+I 09/04/2012 14:58:35:832 00001270              RhoRuby| require_compiled: timeout
+I 09/04/2012 14:58:36:846 00001270                  APP| [Debugger] Unable to open connection to debugger: #<Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2)>
+I 09/04/2012 14:58:36:846 00001270                  APP| RHO loaded
+I 09/04/2012 14:58:36:846 00001270                  APP| Calling RHO.initialize
+I 09/04/2012 14:58:36:846 00001270              RhoRuby| require_compiled: rhoappmanifest
+I 09/04/2012 14:58:36:846 00001270              RhoRuby| require_compiled: find
+I 09/04/2012 14:58:36:877 00001270                  APP| model file: ProductCatalog/product_catalog
+I 09/04/2012 14:58:36:877 00001270                  APP| model file: Inventory/inventory
+I 09/04/2012 14:58:36:877 00001270                   DB| Open DB: C:/Users/QPBH84/workspace/InventoryManagement/rhosimulator/db/syncdbuser.sqlite
+I 09/04/2012 14:58:36:877 00001270          GeoLocation| Creating singleton instance.
+I 09/04/2012 14:58:36:877 00001270            RhodesApp| Starting sync engine...
+I 09/04/2012 14:58:36:877 00001270                 Sync| sync_poll_interval: 0
+I 09/04/2012 14:58:36:877 00001270                 Sync| syncserver: 
+I 09/04/2012 14:58:36:877 00001270                 Sync| bulksync_state: 0
+I 09/04/2012 14:58:36:877 00001270            RhodesApp| RhoRubyInitApp...
+I 09/04/2012 14:58:36:877 00001270                  APP| init_app
+I 09/04/2012 14:58:36:877 00001270              RhoRuby| require_compiled: application
+I 09/04/2012 14:58:36:877 00001270                 Sync| Set notification. Source ID: -1;Url :http://127.0.0.1:63075/app/Settings/sync_notify; Params: 
+I 09/04/2012 14:58:36:892 00001270                  APP| const_missing: ProductCatalog
+I 09/04/2012 14:58:36:892 00001270                  APP| load_model: ProductCatalog
+I 09/04/2012 14:58:36:892 00001270              RhoRuby| require_compiled: ProductCatalog/product_catalog
+I 09/04/2012 14:58:36:892 00001270                  APP| model name: ProductCatalog
+I 09/04/2012 14:58:36:892 00001270                  APP| model class found
+I 09/04/2012 14:58:36:892 00001270                  APP| ProductCatalog : {"property"=>{}}
+I 09/04/2012 14:58:36:892 00001270                   DB| Open DB: C:/Users/QPBH84/workspace/InventoryManagement/rhosimulator/db/syncdblocal.sqlite
+I 09/04/2012 14:58:36:892 00001270                  APP| init_db_sources
+I 09/04/2012 14:58:36:892 00001270                  APP| start_id: 40005
+I 09/04/2012 14:58:36:892 00001270                  APP| Migrate schema sources: {}
+I 09/04/2012 14:58:36:892 00001270           HttpServer| Start HTTP server
+I 09/04/2012 14:58:36:892 00001270           HttpServer| Listen for connections on port 63075
+I 09/04/2012 14:58:36:892 00001270         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I 09/04/2012 14:58:36:892 00000510         AppCallbacks| process command: LOCAL-SERVER-STARTED
+I 09/04/2012 14:58:36:892 00000510  SystemImpl.cpp: 717| rho_sys_report_app_started() has no implementation on Win Mobile.
+I 09/04/2012 14:58:36:892 00000510         AppCallbacks| process command: UI-CREATED
+RVER-STARTED) - postpone it
